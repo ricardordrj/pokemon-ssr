@@ -23,7 +23,7 @@ const Details = ({ pokemon }) => {
                 <section className={styles.layout}>
                     <header>
                         <Image
-                            classname={styles.picture}
+                            className={styles.picture}
                             src={`https://pokemon-ssr.s3.sa-east-1.amazonaws.com/pokemon-main/${pokemon?.image}`}
                             alt={pokemon?.name}
                             width={500}
